@@ -69,9 +69,9 @@
          <Role schemeIdUri="urn:mpeg:dash:role:2011" value="alternate"/>
          <Representation bandwidth="50000" codecs="stpp" id="Data4_10">
             <SegmentTemplate duration="6000000" initialization="data-1-$Bandwidth$-init.m4i?hw_dash=1&amp;servicetype=1" media="data-1-$Bandwidth$-$Number$.m4s?hw_dash=1&amp;servicetype=1" startNumber="1" timescale="1000000"/>
-      </Representation>
+         </Representation>
       </AdaptationSet>
-      <AdaptationSet contentType="text" id="3" lang="eng" mimeType="application/mp4" segmentAlignment="true" startWithSAP="1">
+      <AdaptationSet contentType="text" id="4" lang="eng" mimeType="application/mp4" segmentAlignment="true" startWithSAP="1">
          <Role schemeIdUri="urn:mpeg:dash:role:2011" value="alternate"/>
          <Representation bandwidth="50000" codecs="stpp" id="Data5_11">
             <SegmentTemplate duration="6000000" initialization="data-2-$Bandwidth$-init.m4i?hw_dash=1&amp;servicetype=1" media="data-2-$Bandwidth$-$Number$.m4s?hw_dash=1&amp;servicetype=1" startNumber="1" timescale="1000000"/>
