@@ -14,8 +14,8 @@
         </SegmentTemplate>
       <Representation bandwidth="360000" height="360" width="480" codecs="avc1.4d401e" frameRate="25000/1000" id="170/video-cif-stream-2" />
       <Representation bandwidth="660000" height="480" width="640" codecs="avc1.4d401f" frameRate="25000/1000" id="170/video-cif-stream-3" />
-    </AdaptationSet>
-      <AdaptationSet bitstreamSwitching="false" contentType="audio" id="2" lang="may" mimeType="audio/mp4" segmentAlignment="true">
+   </AdaptationSet>
+    <AdaptationSet bitstreamSwitching="false" contentType="audio" id="2" lang="mul" mimeType="audio/mp4" segmentAlignment="true">
         <ContentProtection schemeIdUri="urn:uuid:edef8ba9-79d6-4ace-a3c8-27dcd51d21ed" ns1:default_KID="3bc3f0e5-18ae-d92e-80a9-8118e5bc2c10">
           <pssh>AAAAK3Bzc2gAAAAA7e+LqXnWSs6jyCfc1R0h7QAAAAsiAzgwOUjj3JWbBg==</pssh>
         </ContentProtection>
