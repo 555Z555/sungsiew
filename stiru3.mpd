@@ -7,24 +7,20 @@
           <pssh>AAAAK3Bzc2gAAAAA7e+LqXnWSs6jyCfc1R0h7QAAAAsiAzgwOUjj3JWbBg==</pssh>
         </ContentProtection>
         <ContentProtection schemeIdUri="urn:mpeg:dash:mp4protection:2011" value="cenc" ns1:default_KID="3bc3f0e5-18ae-d92e-80a9-8118e5bc2c10"/>
-        <SegmentTemplate initialization="https://raw.githubusercontent.com/555Z555/sungsiew/refs/heads/main/$RepresentationID$_init.mp4" media="https://raw.githubusercontent.com/555Z555/sungsiew/refs/heads/main/$RepresentationID$-$Time$.m4f" startNumber="192941012" timescale="90000">
+        <SegmentTemplate initialization="$RepresentationID$_init.mp4" media="$RepresentationID$-$Time$.m4f" startNumber="192941012" timescale="90000">
           <SegmentTimeline>
             <S d="540000" r="9" t="156828980441052"/>
           </SegmentTimeline>
         </SegmentTemplate>
-        <Representation bandwidth="660000" height="480" width="640" codecs="avc1.4d401f" frameRate="25000/1000" id="165/video-cif-stream-3"/>
-        <Representation bandwidth="960000" height="540" width="720" codecs="avc1.640020" frameRate="25000/1000" id="165/video-cif-stream-4"/>
-        <Representation bandwidth="4320400" height="1080" width="1920" codecs="avc1.64001f" frameRate="25000/1000" id="168/video-cif-stream-6"/>
-        <Representation bandwidth="8000000" height="2160" width="3840" codecs="avc1.64001f" frameRate="25000/1000" id="168/video-cif-stream-7"/>
-        <Representation id="3" bandwidth="3590400" width="1280" height="720" sar="1:1" scanType="progressive"/>
-        <Representation id="4" bandwidth="3590400" width="1920" height="1080" sar="1:1" scanType="progressive"/>
-      </AdaptationSet>
+      <Representation bandwidth="360000" height="360" width="480" codecs="avc1.4d401e" frameRate="25000/1000" id="170/video-cif-stream-2" />
+      <Representation bandwidth="660000" height="480" width="640" codecs="avc1.4d401f" frameRate="25000/1000" id="170/video-cif-stream-3" />
+    </AdaptationSet>
       <AdaptationSet bitstreamSwitching="false" contentType="audio" id="2" lang="may" mimeType="audio/mp4" segmentAlignment="true">
         <ContentProtection schemeIdUri="urn:uuid:edef8ba9-79d6-4ace-a3c8-27dcd51d21ed" ns1:default_KID="3bc3f0e5-18ae-d92e-80a9-8118e5bc2c10">
           <pssh>AAAAK3Bzc2gAAAAA7e+LqXnWSs6jyCfc1R0h7QAAAAsiAzgwOUjj3JWbBg==</pssh>
         </ContentProtection>
         <ContentProtection schemeIdUri="urn:mpeg:dash:mp4protection:2011" value="cenc" ns1:default_KID="3bc3f0e5-18ae-d92e-80a9-8118e5bc2c10"/>
-        <SegmentTemplate initialization="https://raw.githubusercontent.com/555Z555/sungsiew/refs/heads/main/$RepresentationID$_init.mp4" media="https://raw.githubusercontent.com/555Z555/sungsiew/refs/heads/main/$RepresentationID$-$Time$.m4f" startNumber="192941012" timescale="90000">
+        <SegmentTemplate initialization="$RepresentationID$_init.mp4" media="$RepresentationID$-$Time$.m4f" startNumber="192941012" timescale="90000">
           <SegmentTimeline>
             <S d="540000" r="9" t="156828980441052"/>
           </SegmentTimeline>
