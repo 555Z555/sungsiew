@@ -6,7 +6,7 @@
           <pssh>AAAAK3Bzc2gAAAAA7e+LqXnWSs6jyCfc1R0h7QAAAAsiAzgwOUjj3JWbBg==</pssh>
         </ContentProtection>
         <ContentProtection schemeIdUri="urn:mpeg:dash:mp4protection:2011" value="cenc" ns1:default_KID="3bc3f0e5-18ae-d92e-80a9-8118e5bc2c10"/>
-        <SegmentTemplate initialization="https://linearjitp-playback.astro.com.my/dash-wv/linear/809/$RepresentationID$_init.mp4" media="https://linearjitp-playback.astro.com.my/dash-wv/linear/809/$RepresentationID$-$Time$.m4f" startNumber="193070365" timescale="90000">
+        <SegmentTemplate initialization="$RepresentationID$_init.mp4" media="$RepresentationID$-$Time$.m4f" startNumber="193070365" timescale="90000">
           <SegmentTimeline>
             <S d="540283" r="0" t="156898835453142"/>
             <S d="540000" r="7" t="156898835993425"/>
@@ -22,7 +22,7 @@
           <pssh>AAAAK3Bzc2gAAAAA7e+LqXnWSs6jyCfc1R0h7QAAAAsiAzgwOUjj3JWbBg==</pssh>
         </ContentProtection>
         <ContentProtection schemeIdUri="urn:mpeg:dash:mp4protection:2011" value="cenc" ns1:default_KID="3bc3f0e5-18ae-d92e-80a9-8118e5bc2c10"/>
-        <SegmentTemplate initialization="https://linearjitp-playback.astro.com.my/dash-wv/linear/809/$RepresentationID$_init.mp4" media="https://linearjitp-playback.astro.com.my/dash-wv/linear/809/$RepresentationID$-$Time$.m4f" startNumber="193070365" timescale="90000">
+        <SegmentTemplate initialization="$RepresentationID$_init.mp4" media="$RepresentationID$-$Time$.m4f" startNumber="193070365" timescale="90000">
           <SegmentTimeline>
             <S d="540283" r="0" t="156898835453142"/>
             <S d="540000" r="7" t="156898835993425"/>
